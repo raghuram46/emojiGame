@@ -1,0 +1,84 @@
+/* Write your code here. */
+.game-data {
+  background-color: #9796f0;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+  margin-right: 25px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 45px;
+  }
+}
+
+.score-text {
+  color: white;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-text {
+    font-size: 28px;
+  }
+}
+
+.score {
+  color: #6a59ff;
+  font-size: 25px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #ffce27;
+  border: none;
+  outline: none;
+  color: #3d3d3d;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .button {
+    padding: 20px;
+    font-size: 22px;
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .img {
+    height: 180px;
+    width: 180px;
+  }
+}
